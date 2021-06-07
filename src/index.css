@@ -1,0 +1,24 @@
+
+html {
+  --pink: #D60087;
+  --golden: goldenrod;
+  --green: rgba(216, 235, 48, 0.83);
+  --text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M136.72 348.61a22.94 22.94 0 1 0 43.22-15.38z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M511.55 165.45L536.61 165.45L536.61 190.51L511.55 190.51z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M483.33 455.66 a20.42 20.42 0 1 0 40.84 0 a20.42 20.42 0 1 0 -40.84 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1228-20.28a48.24 48.24 0 1 0-63.63 72.52z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1392.69 128.01 a29.96 29.96 0 1 0 59.92 0 a29.96 29.96 0 1 0 -59.92 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1076.84 554.49L1113.49 554.49L1113.49 591.14L1076.84 591.14z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M756.26 7.46L795.56 7.46L795.56 35.82L756.26 35.82z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M25.99 370.04L26.54 370.04L26.54 423.32L25.99 423.32z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M905.99 522.28 a27.93 27.93 0 1 0 55.86 0 a27.93 27.93 0 1 0 -55.86 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M878.82 241.19L928.56 241.19L928.56 290.93L878.82 290.93z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M620.67 145.35L648.93 145.35L648.93 173.61L620.67 173.61z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M941.34 228.22a0.43 0.43 0 1 0-0.84 0.22z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M142.87 85.55 a19.16 19.16 0 1 0 38.32 0 a19.16 19.16 0 1 0 -38.32 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M329.59 523.81L381.54 523.81L381.54 575.76L329.59 575.76z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M794.97 148.48 a17.04 17.04 0 1 0 34.08 0 a17.04 17.04 0 1 0 -34.08 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1144.93 501.44a3.73 3.73 0 1 0-6.24 4.09z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1.85 326.79L6.52 326.79L6.52 331.46L1.85 331.46z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1161.24 414.19L1165.88 414.19L1165.88 445.98L1161.24 445.98z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1208.54 452.49a10.52 10.52 0 1 0 10.48 18.25z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1356.2 405.97a49.06 49.06 0 1 0 59.45-78.06z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M569.26 204.09 a47.56 47.56 0 1 0 95.12 0 a47.56 47.56 0 1 0 -95.12 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M955.59 150.05a43.84 43.84 0 1 0-65.58-58.2z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M827.49 284.25L864.82 284.25L864.82 321.58L827.49 321.58z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M718.92 539.64 a45.27 45.27 0 1 0 90.54 0 a45.27 45.27 0 1 0 -90.54 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1253.87 200.13L1273.78 200.13L1273.78 220.04L1253.87 220.04z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M365.3 8.63L376.7 8.63L376.7 16.04L365.3 16.04z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M691.18 292.33a16.5 16.5 0 1 0 0.63-33z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M224.16 500.66L270.06 500.66L270.06 546.56L224.16 546.56z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M174.91 13.36 a25.6 25.6 0 1 0 51.2 0 a25.6 25.6 0 1 0 -51.2 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1396.28 502.2 a16.58 16.58 0 1 0 33.16 0 a16.58 16.58 0 1 0 -33.16 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1337.35 217.49L1380.42 217.49L1380.42 268.22L1337.35 268.22z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M429.47 162.98a54.75 54.75 0 1 0 89.11 63.64z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M56.44 369.3L67.51 369.3L67.51 397.03L56.44 397.03z' stroke='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
+}
+:focus {
+  outline-color: var(--pink);
+}
